@@ -1,0 +1,51 @@
+h1{
+    color: black; 
+    font-family: cursive;
+    font-size: 300%;
+}
+
+#grid{
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+}
+#text{
+    display: grid;
+    grid-template-columns: auto auto;
+    color: black;
+    background-color:  rgba(201, 76, 76, 0.3);
+    border-color: purple;
+    border-style: dashed;
+    
+}
+
+body {
+    color: black;
+    font-family: cursive;
+    font-size: 150%;
+    background-image: url("heavengateway.jpg")
+}
+img {
+    
+    border-radius: 50%;
+
+}
+.grid-container { 
+
+    height: 300px;
+    
+}
+.container {
+
+    border-style: dashed;
+    border-color: purple;
+    margin-top: 30px;
+    padding: 20px;   
+}
+
+#icon{
+
+    margin-top: 30px;
+}
+
